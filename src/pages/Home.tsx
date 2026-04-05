@@ -1,9 +1,13 @@
+import Header from '../components/Header/Header'
 
 function Home(){
-    return (
-        <h1>
-            test
-        </h1>
+    return (<>
+            <Header/>
+                <h1>
+                    test
+                </h1>
+    </>
+       
     )
 }
 
