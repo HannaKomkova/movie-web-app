@@ -13,19 +13,19 @@ function Header(){
                 <div className={GlobalStyle['container']}>
                     <div className={HeaderStyle['header-wrapper']}>
                         <div className={HeaderStyle['header-wrapper-logo']}>
-                            <img src={Logo}/>
+                            <img src={Logo} alt='logo img'/>
                         </div>
                         <NavBar/>
                         <div className={HeaderStyle['header-wrapper-actions']}>
                             <div className={HeaderStyle['header-wrapper-actions-icon']}>
-                                <img src={SearchIcon}/>
+                                <img src={SearchIcon} alt='search icon'/>
                             </div>
                             <div className={HeaderStyle['header-wrapper-actions-icon']}>
-                                <img src={NotificationIcon}/>
+                                <img src={NotificationIcon} alt='notification icon'/>
                             </div>
                         </div>
                         <div className={HeaderStyle['header-wrapper-burger-actions']}>
-                            <img src={BurgerActionIcon}/>
+                            <img src={BurgerActionIcon} alt='burger menu icon'/>
                         </div>
                     </div>
                 </div>

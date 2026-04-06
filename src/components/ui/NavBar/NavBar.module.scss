@@ -1,4 +1,4 @@
-.navigation{
+.navigation {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -9,7 +9,7 @@
     border-radius: 12px;
     padding: 20px 36px 20px 30px;
 
-    @media(max-width:1440px){
+    @media (max-width:1440px) {
         gap: 14px;
         max-width:412px;
         border: 3px solid #1F1F1F;
@@ -17,23 +17,22 @@
         padding: 16px 22px 16px 24px;
     }
 
-    @media(max-width:768px){
+    @media (max-width:768px) {
         display: none;
     }
 
-    a{
+    a {
         color: #BFBFBF;
-        background-color: #0F0F0F;
         font-weight: 400;
         font-size: 18px;
         line-height: 1.5;
         padding: 4px;
 
-        @media(max-width:1440px){
+        @media (max-width:1440px) {
             font-size: 14px;
         }
 
-        &:hover{
+        &:hover {
             color: #FFFFFF;
             background-color: #1A1A1A;
             border-radius: 8px;

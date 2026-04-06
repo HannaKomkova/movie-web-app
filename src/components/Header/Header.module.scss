@@ -1,60 +1,56 @@
 header {
-    margin-top: 22px;
-    margin-bottom: 23px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 22px 0 23px;
     
-    @media(max-width:1440px){
-        margin-top: 18px;
-        margin-bottom: 19px;
+    
+    @media (max-width:1440px) {
+        padding: 18px 0 19px;
     }
 
-    @media(max-width:768px){
-        margin-top: 52px;
-        margin-bottom: 26px;
+    @media (max-width:768px) {
+        padding: 40px 0 26px;
     }
 
-    .header-wrapper{
+    .header-wrapper {
         display: flex;
         align-items: center;
         justify-content: space-between;
 
-        &-logo{
-            @media(max-width:1440px){
+        &-logo {
+            @media (max-width:1440px) {
                 max-width: 166px;
             }
-            @media(max-width:768px){
+            @media (max-width:768px) {
                 max-width: 116px;
             }
         }
         
-        &-actions{
+        &-actions {
         display: flex;
         gap: 35px;
         max-width: 98px;
 
-        @media(max-width:1440px){
+        @media (max-width:1440px) {
              gap: 14px;
             max-width: 62px;
         }
-        @media(max-width:768px){
+        @media (max-width:768px) {
             display: none;
         }
     }   
-        &-burger-actions{
+        &-burger-actions {
             display: none;
 
-           @media(max-width:768px){
+           @media (max-width:768px) {
                display: flex;
                background-color: #1A1A1A;
                border: 3px solid #262626;
                border-radius: 6px;
                padding: 12px;
             } 
-
-            img{
-                @media(max-width:768px){
-                    background-color: #1A1A1A;
-                }
-            }
         }
     }
 }
